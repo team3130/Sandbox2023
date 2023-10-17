@@ -21,6 +21,10 @@ public class FRCTeam {
         return numOfMembers;
     }
 
+    public boolean isQualifiedToWorlds() {
+        return qualifiedToWorlds;
+    }
+
     public static void main(String[] args) {
         FRCTeam ERROR3130 = new FRCTeam(3130, "ERROR", 32);
         System.out.println(ERROR3130.getNumOfMembers());

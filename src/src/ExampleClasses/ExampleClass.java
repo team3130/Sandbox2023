@@ -27,6 +27,14 @@ public class ExampleClass {
         return exampleInt;
     }
 
+    public void exampleSetter(int setpoint) {
+        exampleDub = setpoint;
+    }
+
+    public double exampleGetter() {
+        return exampleDub;
+    }
+
     public void checkHeight() {
         if (height == 0) {
             this.setHeight(1);
