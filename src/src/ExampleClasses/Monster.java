@@ -6,4 +6,9 @@ public class Monster {
     public String species;
     public boolean isDangerous;
     public String name;
+
+    public Monster(String name, String species) {
+        this.name = name;
+        this.species = species;
+    }
 }
