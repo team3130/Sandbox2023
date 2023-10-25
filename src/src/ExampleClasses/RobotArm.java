@@ -7,6 +7,7 @@ JUST READ IT OVER AND BECOME FAMILIAR WITH THE IDEA OF FRC ROBOT CLASSES, OBJECT
 public class RobotArm {
     double armPosition;
     double armSize;
+    double speed;
 
     public RobotArm(int armSize) {
         this.armSize = armSize;
@@ -26,6 +27,14 @@ public class RobotArm {
         } else {
             armPosition += extendBy;
         }
+    }
+
+    public void setSpeed(double newSpeed) {
+        speed = newSpeed;
+    }
+
+    public double getSpeed() {
+        return speed;
     }
 
     public double getArmPosition() {
