@@ -6,10 +6,17 @@ JUST READ IT OVER AND BECOME FAMILIAR WITH THE IDEA OF FRC ROBOT CLASSES, OBJECT
  */
 
 public class RobotArm {
+    // INSTANCE VARIABLES
     double armPosition;
     double armSize;
     double speed;
 
+    // CONSTRUCTOR
+    public RobotArm() {
+
+    }
+
+    // METHODS
     public RobotArm(int armSize) {
         this.armSize = armSize;
     }
