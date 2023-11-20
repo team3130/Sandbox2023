@@ -1,7 +1,7 @@
 package ExampleClasses;
 
 public class Cat {
-    // FIELDS
+    // INSTANCE VARIABLES
     public String species;
     public String color;
     public int population;

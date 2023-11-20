@@ -1,7 +1,7 @@
 package ExampleClasses;
 
 public class ExampleClass {
-    // (1) FIELDS
+    // (1) INSTANCE VARIABLES
     int exampleInt = 0;
     int anInt; // declaring an int without a value;
     double exampleDub = -1.0;
