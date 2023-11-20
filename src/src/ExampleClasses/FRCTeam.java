@@ -1,7 +1,7 @@
 package ExampleClasses;
 
 public class FRCTeam {
-    // FIELDS
+    // INSTANCE VARIABLES
     int teamNumber;
     String teamName;
     int numOfMembers;

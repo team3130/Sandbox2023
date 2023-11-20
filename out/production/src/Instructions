@@ -25,5 +25,3 @@ Instructions:
     - REQUIRED: create 3 objects
     - test out your methods by calling them ff of these objects, print out values and see what happens
     - try: what happens if you call a modifying method and then after, try to out the variable it modified?
-        L cry about it
-        
