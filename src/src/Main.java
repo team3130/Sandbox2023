@@ -12,9 +12,13 @@ public class Main {
         (1) OPERATORS PRACTICE
          */
         System.out.println("(1) OPERATORS PRACTICE:");
-        System.out.println(9057 + 90274903) // what is wrong with this line?
+        System.out.println(9057 + 90274903); // what is wrong with this line?
         // continue exercise here
-
+        System.out.println(9999-1111);
+        System.out.println(297*209);
+        System.out.println(105/10);
+        System.out.println(25%11);
+        System.out.println(30%10);
 
         /*
         (2) VARIABLE TYPES AND DECLARATION EXAMPLES
@@ -31,6 +35,14 @@ public class Main {
 
         // create your own experimental variables here
 
+        int MyInt = 5;
+        int MyInt2 = 10;
+        double MyDouble = 0.123;
+        double MyDouble2 = 0.456;
+        boolean MyBool = true;
+        boolean MyBool2 = false;
+        String MyString = "why not?";
+        String MyString2 = "no";
 
         /*
         (3) VARIABLE REASSIGNMENT
@@ -45,6 +57,13 @@ public class Main {
         y += y; // y is equal to 4
 
         // try variable reassignment yourself using shorthand: += *= /= -=
+
+        int a = 5;
+        a = a/5;
+        int b = 10;
+        b = a*8;
+        int c = 2;
+        c = x+y;
 
 
         /*
@@ -62,7 +81,7 @@ public class Main {
         int negativeNancy = -31;
         int boringNum = 0;
 
-        boolean softwareIsTheBest = false;
+        boolean softwareIsTheBest = true;
         boolean juhaeSoftwareLead = true;
         boolean giorgiaPM = false;
 
@@ -72,17 +91,17 @@ public class Main {
             System.out.println("Business for life");
         }
 
-        if (ERRORNumMembers <= numBigTeam) {
+        if (ERRORNumMembers >= numBigTeam) {
             System.out.println("The ERRORs is a big team");
         }
 
-        if (!giorgiaPM) {
+        if (giorgiaPM) {
             System.out.println("Oh no! Who has the schedule?");
         } else {
             System.out.println("Don't worry, Giorgia has the schedule.");
         }
 
-        if (13 != 13) {  // remember that != means equals, but == is equals...
+        if (13 == 13) {  // remember that != means equals, but == is equals...
             System.out.println(" ");
         }
 
