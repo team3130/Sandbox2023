@@ -4,6 +4,8 @@ MAIN IS NEVER USED IN FRC
 HOWEVER, IT IS IMPORTANT IN REAL LIFE CODE SO IF YOU WANNA KNOW LOOK INTO IT
  */
 
+import java.sql.SQLOutput;
+
 public class Main {
     public static void main(String[] args) {
         System.out.println("Hello world!");
@@ -63,7 +65,7 @@ public class Main {
         int b = 10;
         b = a*8;
         int c = 2;
-        c = x+y;
+        c = b+c;
 
 
         /*
@@ -121,6 +123,35 @@ public class Main {
 
         // write your own conditionals using &&, ||, and elif statements
 
+        System.out.println();
+        System.out.println("Practice Code");
+        System.out.println();
+
+        int X = 5;
+        int Y = 8;
+        int Z = 14;
+        int A = ((X + 17) + ((Y * Z) / X));
+
+
+
+        if ((X + 17) > ((Y * Z) / X)) {
+            System.out.println("5 plus 17 is greater than Y times Z divided by X");
+
+        } else if ((X + 17) == ((Y * Z) / X)) {
+            System.out.println("5 plus 17 is equal to Y times Z divided by X");
+
+        } else {
+            System.out.println("5 plus 17 is less than Y times Z divided by X");
+        }
+        if (A > 20) {
+            System.out.println("The answer of X plus 17 plus Y times Z divided by X is less than 20");
+
+        } else if (A == 20) {
+            System.out.println("The answer of X plus 17 plus Y times Z divided by X is equal to 20");
+
+        } else {
+            System.out.println("The answer of X plus 17 plus Y times Z divided by X is greater than 20");
+        }
 
     }
 }
