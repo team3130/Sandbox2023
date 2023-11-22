@@ -12,9 +12,12 @@ public class Main {
         (1) OPERATORS PRACTICE
          */
         System.out.println("(1) OPERATORS PRACTICE:");
-        System.out.println(9057 + 90274903) // what is wrong with this line?
-        // continue exercise here
-
+        System.out.println(9057 + 90274903);// what is wrong with this line?
+        System.out.println(9999 - 1111);// continue exercise here
+        System.out.println(297 * 209);
+        System.out.print(105/10);
+        System.out.print(25 % 11);
+        System.out.print(30 % 10);
 
         /*
         (2) VARIABLE TYPES AND DECLARATION EXAMPLES
@@ -29,8 +32,12 @@ public class Main {
         boolean isTrue = true;
         String myString = "bruh";
 
+        double wahooo;
+        wahooo = 2.662;
+        int wahoo = 3;
+        boolean waho = true;
+        String wah = "WAHOOOOO";
         // create your own experimental variables here
-
 
         /*
         (3) VARIABLE REASSIGNMENT
@@ -45,8 +52,9 @@ public class Main {
         y += y; // y is equal to 4
 
         // try variable reassignment yourself using shorthand: += *= /= -=
-
-
+        System.out.println(y);
+        y -= 3;
+        System.out.println(y);
         /*
         (4) CONDITIONALS BASICS
          */
@@ -66,23 +74,23 @@ public class Main {
         boolean juhaeSoftwareLead = true;
         boolean giorgiaPM = false;
 
-        if (softwareIsTheBest) { // shorthand for if (softwareIsTheBest == true)
+        if (!softwareIsTheBest) { // shorthand for if (softwareIsTheBest == true)
             System.out.println("Juhae is the best");
         } else {
             System.out.println("Business for life");
         }
 
-        if (ERRORNumMembers <= numBigTeam) {
+        if (ERRORNumMembers >= numBigTeam) {
             System.out.println("The ERRORs is a big team");
         }
 
-        if (!giorgiaPM) {
+        if (giorgiaPM) {
             System.out.println("Oh no! Who has the schedule?");
         } else {
             System.out.println("Don't worry, Giorgia has the schedule.");
         }
 
-        if (13 != 13) {  // remember that != means equals, but == is equals...
+        if (13 == 13) {  // remember that != means equals, but == is equals...
             System.out.println(" ");
         }
 
@@ -101,7 +109,16 @@ public class Main {
         }
 
         // write your own conditionals using &&, ||, and elif statements
-
-
+        boolean bandLoud = true;
+        boolean softwareBad = true;
+        if (bandLoud && softwareBad) {
+            System.out.println("I made a bad decision");
+        } else {
+            System.out.println("I made a good decision!!");
+        }
+        if (!bandLoud || !softwareBad) {
+            System.out.println("Why");
+        }
+            System.out.print("vvvv");
     }
 }
