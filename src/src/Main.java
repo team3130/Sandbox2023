@@ -12,7 +12,7 @@ public class  Main {
         (1) OPERATORS PRACTICE
          */
         System.out.println("(1) OPERATORS PRACTICE:");
-        System.out.println(9057 + 90274903) // what is wrong with this line?
+        System.out.println(9057 + 90274903); // what is wrong with this line?
         // continue exercise here
 
 
@@ -38,10 +38,10 @@ public class  Main {
         System.out.println();
         System.out.println("(3) VARIABLE REASSIGNMENT");
         // verify this below by using print statements before and after reassignment
-        int x = 2;
+        int x = 4;
         x = x + 2; // x is now equal to 4
 
-        int y = 2;
+        int y = 4;
         y += y; // y is equal to 4
 
         // try variable reassignment yourself using shorthand: += *= /= -=
@@ -62,9 +62,10 @@ public class  Main {
         int negativeNancy = -31;
         int boringNum = 0;
 
-        boolean softwareIsTheBest = false;
+
+        boolean softwareIsTheBest = true;
         boolean juhaeSoftwareLead = true;
-        boolean giorgiaPM = false;
+        boolean giorgiaPM = true;
 
         if (softwareIsTheBest) { // shorthand for if (softwareIsTheBest == true)
             System.out.println("Juhae is the best");
@@ -72,7 +73,7 @@ public class  Main {
             System.out.println("Business for life");
         }
 
-        if (ERRORNumMembers <= numBigTeam) {
+        if (ERRORNumMembers > numBigTeam) {
             System.out.println("The ERRORs is a big team");
         }
 
@@ -82,7 +83,7 @@ public class  Main {
             System.out.println("Don't worry, Giorgia has the schedule.");
         }
 
-        if (13 != 13) {  // remember that != means equals, but == is equals...
+        if (13 == 13) {  // remember that != means equals, but == is equals...
             System.out.println(" ");
         }
 
@@ -91,14 +92,21 @@ public class  Main {
          */
         System.out.println("(5) ADVANCED CONDITIONALS");
 
-        String juhae = "the best";
-        String giorgia = "the worst";
+        String juhae = "mid";
+        String giorgia = "mid";
+        String mightyblast = "cooliosis";
+
+
 
         if (juhae.equals("the best") && giorgia.equals("the worst")) {
             System.out.println("Juhae is the best, Giorgia is the worst");
         } else {
             System.out.println("Either Juhae is not the best or Giorgia is not the worst");
         }
+        if (mightyblast.equals("cooliosis")) {
+            System.out.println("mightyblast");
+        }
+
 
         // write your own conditionals using &&, ||, and elif statements
 
