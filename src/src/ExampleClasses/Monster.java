@@ -50,5 +50,9 @@ public class Monster {
         Monster vampy = new Monster("Dracula", "European vampire", 7, 300.0);
         Monster amalgamation = new Monster("Frankenstein's Monster", "Frankenstein", 12, 527.9);
         Monster blob  = new Monster("blubby", "alien", 2, 8.5);
+        Monster Lorax = new Monster("Lorax","Truffulae",3,45);
+        Monster Gavin = new Monster("Gavin", "Human", 6, 175);
+        Monster JaredLeto = new Monster("Jared", "Human", 6, 200);
+        Monster CountChocula = new Monster("Count", "Vampire", 11, 205);
     }
 }
