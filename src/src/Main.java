@@ -12,7 +12,12 @@ public class Main {
         (1) OPERATORS PRACTICE
          */
         System.out.println("(1) OPERATORS PRACTICE:");
-        System.out.println(9057 + 90274903) // what is wrong with this line?
+        System.out.println(9057 + 90274903);// what is wrong with this line?
+        System.out.println(9999 - 1111);
+        System.out.println(297 * 209);
+        System.out.println(105 / 10);
+        System.out.println(25 % 11);
+        System.out.println(30 % 10);
         // continue exercise here
 
 
@@ -30,7 +35,10 @@ public class Main {
         String myString = "bruh";
 
         // create your own experimental variables here
-
+        int Trey = 450;
+        double asgasdgd = 3.1415926535897932832;
+        boolean adfasdsa = true;
+        String adfdasdg = "stfu";
 
         /*
         (3) VARIABLE REASSIGNMENT
@@ -45,8 +53,10 @@ public class Main {
         y += y; // y is equal to 4
 
         // try variable reassignment yourself using shorthand: += *= /= -=
-
-
+        int z = 3;
+        System.out.println(z);
+        z += 2;
+        System.out.println(z);
         /*
         (4) CONDITIONALS BASICS
          */
@@ -62,9 +72,9 @@ public class Main {
         int negativeNancy = -31;
         int boringNum = 0;
 
-        boolean softwareIsTheBest = false;
+        boolean softwareIsTheBest = true;
         boolean juhaeSoftwareLead = true;
-        boolean giorgiaPM = false;
+        boolean giorgiaPM = true;
 
         if (softwareIsTheBest) { // shorthand for if (softwareIsTheBest == true)
             System.out.println("Juhae is the best");
@@ -72,7 +82,7 @@ public class Main {
             System.out.println("Business for life");
         }
 
-        if (ERRORNumMembers <= numBigTeam) {
+        if (ERRORNumMembers >= numBigTeam) {
             System.out.println("The ERRORs is a big team");
         }
 
@@ -82,7 +92,7 @@ public class Main {
             System.out.println("Don't worry, Giorgia has the schedule.");
         }
 
-        if (13 != 13) {  // remember that != means equals, but == is equals...
+        if (13 == 13) {  // remember that != means equals, but == is equals...
             System.out.println(" ");
         }
 
@@ -101,7 +111,12 @@ public class Main {
         }
 
         // write your own conditionals using &&, ||, and elif statements
-
-
+        String gavin = "stupid red head";
+        String trey = "Awesome and cool";
+        if (trey.equals("Awesome and cool") && gavin.equals("stupid red head")) {
+            System.out.println("trey is better, gavin sucks");
+        }else {
+            System.out.println("Either trey is not better or gavin is good");
+        }
     }
 }
