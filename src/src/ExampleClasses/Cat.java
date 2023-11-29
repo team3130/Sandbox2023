@@ -28,5 +28,10 @@ public class Cat {
         Cat lion = new Cat("Panthera leo", "Gold", 23000);
         Cat tabby = new Cat("Felis Catus", "Mixed", 3000000);
         Cat cheetah = new Cat("Acinonyx jubatus", "Black and yellow", 7000);
-    }
-}
+        lion.species = "moon";
+        tabby.species = "sun";
+        cheetah.species = "sky";
+        System.out.println(lion.population);
+        System.out.println(tabby.population);
+        System.out.println();
+    }}

@@ -55,4 +55,4 @@ public class RobotArm {
         public static void main (String[]args){
         RobotArm cooliosis = new RobotArm(6, 99,54);
         RobotArm coolio = new RobotArm(9,10,99);
-}
+}}

@@ -49,9 +49,9 @@ public class Monster {
     public static void main(String[] args) {
         Monster vampy = new Monster("Dracula", "European vampire", 7, 300.0);
         Monster amalgamation = new Monster("Frankenstein's Monster", "Frankenstein", 12, 527.9);
-        Monster blob  = new Monster("blubby", "alien", 2, 8.5);
+        Monster blob = new Monster("blubby", "alien", 2, 8.5);
         Monster lorax = new Monster("Lorax", "truffuale", 3, 45);
-
-
+    blob.addWeight(blob.getWeight());
+        System.out.println(blob.weight);
     }
 }
