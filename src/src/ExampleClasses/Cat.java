@@ -4,7 +4,7 @@ public class Cat {
     // INSTANCE VARIABLES
     public String species;
     public String color;
-    public int population;
+    public static int population;
 
     // CONSTRUCTOR
     public Cat(String scientificName, String color, int population) {
@@ -25,8 +25,16 @@ public class Cat {
 
     // HOW TO CREATE OBJECTS
     public static void main(String[] args) {
-        Cat lion = new Cat("Panthera leo", "Gold", 23000);
-        Cat tabby = new Cat("Felis Catus", "Mixed", 3000000);
-        Cat cheetah = new Cat("Acinonyx jubatus", "Black and yellow", 7000);
+        Cat lion = new Cat("Panthera leo", "Gold", 0);
+        Cat tabby = new Cat("dumb cat", "Mixed", 0 );
+        Cat cheetah = new Cat("Acinonyx jubatus", "Black and yellow", 0);
+        System.out.println("oh no global warming!" );
+        System.out.println(lion.species);
+        System.out.println(tabby.species);
+        System.out.println(population);
+
+        lion.color = "shiny";
+        System.out.println(lion.color);
+
     }
 }
