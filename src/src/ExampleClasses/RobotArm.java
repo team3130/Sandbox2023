@@ -5,6 +5,8 @@ NOTE: THIS IS AN INACCURATE AND SIMPLIFIED VERSION OF WHAT OUR FRC ROBOT CODE LO
 JUST READ IT OVER AND BECOME FAMILIAR WITH THE IDEA OF FRC ROBOT CLASSES, OBJECTS, METHODS ETC
  */
 
+import java.awt.*;
+
 public class RobotArm {
     // INSTANCE VARIABLES
     double armPosition;
@@ -12,8 +14,10 @@ public class RobotArm {
     double speed;
 
     // CONSTRUCTOR
-    public RobotArm() {
-
+    public RobotArm(double ap, double as, double s) {
+        armPosition = ap;
+        armSize = as;
+        speed = s;
     }
 
     // METHODS
@@ -47,6 +51,11 @@ public class RobotArm {
 
     public double getArmPosition() {
         return this.armPosition;
+    }
+
+    public static void main(String[] args) {
+        RobotArm extenArm = new RobotArm(5.0,54.0,45.9);
+        System.out.println(extenArm.armPosition);
     }
 
 }
