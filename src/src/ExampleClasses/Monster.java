@@ -53,5 +53,7 @@ public class Monster {
         Monster lorax = new Monster("Lorax", "truffulae", 3, 45);
         Monster zombie = new Monster("Zombie", "Undead", 6, 120);
         Monster robot = new Monster("Robot", "electronic", 6, 180);
+
+        blob.addWeight(blob.getWeight());
     }
 }
