@@ -54,7 +54,7 @@ public class Monster {
         Monster split = new Monster("Jekyll", "scientistae", 6, 340.0);
         Monster vampy2 = new Monster("Mina", "Lady vampire", 6, 220.0);
         Monster cowboy = new Monster("Quincy", "Texan", 7, 320.0);
+
+        blob.addWeight(blob.getWeight());
     }
 }
-
-

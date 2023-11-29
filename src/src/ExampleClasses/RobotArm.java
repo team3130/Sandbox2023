@@ -18,6 +18,6 @@ public class RobotArm {
         RobotArm energizerrArm = new RobotArm(8, 5.6);
         RobotArm outreacherrArm = new RobotArm(69, 5.84);
 
-        System.out.println(energizerrArm.weight);
+        System.out.println(energizerrArm.w);
     }
 }
