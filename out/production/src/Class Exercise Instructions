@@ -1,27 +1,27 @@
-Instructions:
+Class Instructions:
 
 1) Create your own Class in src folder, not in the ExampleClasses Folder
     - name it anything you want, but all the code in the class with conform to this theme
     - don't just randomly choose something that doesn't make sense
     - E.g. if I make class "Monster", I could have
-        - fields: int size, double weight, String species, boolean isDangerous, String name
+        - instance variables: int size, double weight, String species, boolean isDangerous, String name
         - constructor: Monster(name, species, size, weight)
-        - methods: getName(), getSpecies(), isDangerous(), addWeight(),
+        - methods: getSize(), getWeight(), isDangerous(), addWeight(),
         - objects: dracula, frankenstein, giorgia
 
-2)  Create some fields
+2)  Create some instance variables
     - REQUIRED: ave at least 2 integers, 1 double, 1 String
 
 3) Write a constructor
     - try to take in at least one variable
 
 4) Write some methods
-    - REQUIRED: 2 setters, 2 getters, 2 modifiers
+    - REQUIRED: 2 setters, 2 getters, 2 random print methods
     - think: what is the difference between returning a value and printing it? what about modifying a value?
     - think: when should a method return void?
     - think: when do I want my method to pass in a parameter?
 
-5) pvsm: create some objects off of this class, and mess around
+5) psvm: create some objects off of this class, and mess around
     - REQUIRED: create 3 objects
     - test out your methods by calling them ff of these objects, print out values and see what happens
     - try: what happens if you call a modifying method and then after, try to out the variable it modified?
