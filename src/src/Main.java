@@ -8,17 +8,14 @@ public class Main {
     public static void main(String[] args) {
         System.out.println("Hello world!");
 
-<<<<<<< Updated upstream
         /*
         (1) OPERATORS PRACTICE
          */
         System.out.println("(1) OPERATORS PRACTICE:");
-        System.out.println(9057 + 90274903) // what is wrong with this line?
+        System.out.println(9057 + 90274903);// what is wrong with this line?
         // continue exercise here
-=======
         // OPERATORS PRACTICE
         System.out.println(9057 + 90274903);// what is wrong with this line?
->>>>>>> Stashed changes
 
 
         /*
