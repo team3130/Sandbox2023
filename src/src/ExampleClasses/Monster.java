@@ -51,7 +51,6 @@ public class Monster {
         Monster amalgamation = new Monster("Frankenstein's Monster", "Frankenstein", 12, 527.9);
         Monster blob  = new Monster("blubby", "alien", 2, 8.5);
         Monster lorax  = new Monster("Lorax", "truffulae", 3, 45);
-        System.out.println(lorax.getSize() + "    " + lorax.getWeight()+ lorax.size+lorax.weight+3+7+(3+7));
-
+        blob.addWeight(blob.getWeight());
     }
 }
