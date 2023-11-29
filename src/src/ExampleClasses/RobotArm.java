@@ -52,6 +52,6 @@ public class RobotArm {
     }
     public static void main(String[] args) {
         RobotArm smallArm = new RobotArm(2,3,4);
-        RobotArm bigArm = new RobotArm(517, 1, 761);
+        RobotArm bigArm = new RobotArm(61, 1, 761);
     }
 }
