@@ -39,6 +39,7 @@ public class Monster {
 
     public void addWeight(double addedWeight) {
         double newWeight = weight + addedWeight;
+        this.weight = newWeight; //Ben Added this so the weight variable is actually updated
         System.out.println(newWeight);
     }
 
@@ -50,5 +51,9 @@ public class Monster {
         Monster vampy = new Monster("Dracula", "European vampire", 7, 300.0);
         Monster amalgamation = new Monster("Frankenstein's Monster", "Frankenstein", 12, 527.9);
         Monster blob  = new Monster("blubby", "alien", 2, 8.5);
+
+        System.out.println(blob.getWeight());
+        blob.addWeight(blob.getWeight());
+        System.out.println(blob.getWeight());
     }
 }
