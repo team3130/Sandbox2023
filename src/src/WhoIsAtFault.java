@@ -6,20 +6,24 @@ public class WhoIsAtFault {
         String reasoning;
 
         System.out.println("is software responsible for what happened");
-        initialobservation = kb.next();
+        initialobservation = kb.nextLine();
 
         if (!(initialobservation.equals("no"))) {
             System.out.println("why do you think it is software's fault?");
-            reasoning = kb.next();
+            reasoning = kb.nextLine();
 
-            if (!(reasoning.equals("Albert says so"))){
+            if (reasoning.equals("Albert says so")) {
+                System.out.println("unfortunate");
+            }
+
+            else if (!(reasoning.equals("Albert says so"))) {
                 while (true){
                     System.out.println("ass hole");
                 }
             }
-            else {
-                return;
-            }
+        }
+        if (initialobservation.equals("no")) {
+            System.out.println("good");
         }
     }
 }
