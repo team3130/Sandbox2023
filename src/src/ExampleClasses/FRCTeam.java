@@ -24,6 +24,10 @@ public class FRCTeam {
         return numOfMembers;
     }
 
+    public void setNumOfMembers(int n) {
+        this.numOfMembers = n;
+    }
+
     public boolean isQualifiedToWorlds() {
         return qualifiedToWorlds;
     }
@@ -31,6 +35,8 @@ public class FRCTeam {
     // MAIN
     public static void main(String[] args) {
         FRCTeam ERROR3130 = new FRCTeam(3130, "ERROR", 32);
+        System.out.println(ERROR3130.getNumOfMembers());
+        ERROR3130.setNumOfMembers(15);
         System.out.println(ERROR3130.getNumOfMembers());
     }
 }
