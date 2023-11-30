@@ -20,13 +20,24 @@ public class FRCTeam {
         return teamNumber;
     }
 
+    public void setTeamNumber(int newTeamNum)  {
+        this.teamNumber = newTeamNum;
+    }
+
     public int getNumOfMembers() {
         return numOfMembers;
     }
 
-    public boolean isQualifiedToWorlds() {
-        return qualifiedToWorlds;
+    public void setNumOfMembers(int newMembers)    {
+        this.numOfMembers = newMembers;
     }
+
+    public boolean getQualifiedToWorlds() {   return qualifiedToWorlds;   }
+
+    public void setIsQualifiedToWorlds(boolean weMadeIt)    {
+        this.qualifiedToWorlds = weMadeIt;
+    }
+
 
     // MAIN
     public static void main(String[] args) {
