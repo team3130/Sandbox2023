@@ -1,0 +1,42 @@
+public class Organs {
+
+    public int nutrients;                       // inst. vars #1-4
+    public String "organType";
+    public double shock;
+    public int blood;
+
+    public Organs (int bpm, double shock, int nutrients, string "organType") {     //  object constructor
+    this.blood = bloodSupplied;
+    this.shock = electricityToOrgans;
+    this.nutrients = nutrientsNeeded;
+    this.organType = whatOrganIsIt;
+}
+
+
+    public int getNutrients() {return.nutrients};           // getter #1
+    public double getShock() {return.shock};               // getter #2
+
+    public int setNutrients(int newNutrients)   {     // setter #1
+    this.nutrients = newNutrients;
+    }
+
+    public int setBlood(newBloodCount)   {         // setter #2
+        this.Blood = newBloodCount;
+    }
+
+    public  moreBlood(int addedBloodFlow)   {        // random print method #1
+          int newBlood = blood + addedBloodFlow;
+          System.out.println(newBlood)
+    }
+    public double lessPower(int notNeeded)  {          // random print method #2
+          double ecoFriendly = nutrients - notNeeded;
+          System.out.println(ecoFriendly);
+    }
+
+
+
+
+    public static void main(String[] args) {
+
+
+}
