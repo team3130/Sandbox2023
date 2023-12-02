@@ -52,8 +52,7 @@ public class Organs {
         System.out.println(lungs.shock);
         heart.lessPower(1.2);
         lungs.moreBlood(2);
-        System.out.println(heart.nutrients);
-        System.out.println(lungs.blood);
+
 
 
     }
