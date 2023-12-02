@@ -16,11 +16,11 @@ public class Organs {
 
     public int getNutrients() {         // getter #1
         return nutrients;
-    }
+    }        //getter #1
 
     public double getShock() {          // getter #2
         return shock;
-    }
+    }              //getter #2
 
     public int setNutrients(int newNutrients) {     // setter #1
         this.nutrients = newNutrients;
