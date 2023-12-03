@@ -1,5 +1,4 @@
 import java.util.Scanner;
-import 
 
 public class MatchPredictor {
     public static void main(String[] args) {
@@ -10,6 +9,7 @@ public class MatchPredictor {
         String red1;
         String red2;
         String red3;
+
 
         System.out.println("what is the first blue team?");
         blue1 = kb.nextLine();
