@@ -44,7 +44,7 @@ public class Organs {
 
     public double newShock;
 
-    public void newShocky(double changeShock) {            //if statement attempt
+    public void newShocky(double changeShock) {            //if statement
         if (newShock <= (changeShock + shock)) {
             System.out.println("moreShock");
         } else {
