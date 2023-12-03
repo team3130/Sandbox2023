@@ -1,3 +1,5 @@
+package TeamData;
+
 public class TeamData {
     // (1) INSTANCE VARIABLES
     public int teamnum;
