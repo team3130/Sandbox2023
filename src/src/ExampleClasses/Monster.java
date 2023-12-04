@@ -1,5 +1,7 @@
 package ExampleClasses;
 
+import javax.xml.namespace.QName;
+
 public class Monster {
     // INSTANCE VARIABLES
     public int size;
@@ -47,8 +49,10 @@ public class Monster {
     }
 
     public static void main(String[] args) {
+        Monster Lorax = new Monster("Lorax", "truffulae", 3, 45);
         Monster vampy = new Monster("Dracula", "European vampire", 7, 300.0);
         Monster amalgamation = new Monster("Frankenstein's Monster", "Frankenstein", 12, 527.9);
         Monster blob  = new Monster("blubby", "alien", 2, 8.5);
+        blob.addWeight(blob.getWeight());
     }
 }

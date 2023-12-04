@@ -12,8 +12,10 @@ public class RobotArm {
     double speed;
 
     // CONSTRUCTOR
-    public RobotArm() {
-
+    public RobotArm(double ap, double as) {
+        this.armPosition = ap;
+        this.armSize = as;
+        RobotArm Bar1 = new RobotArm(5.125, 5.9);
     }
 
     // METHODS

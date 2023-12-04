@@ -23,10 +23,24 @@ public class Cat {
         return this.species;
     }
 
+
+
     // HOW TO CREATE OBJECTS
     public static void main(String[] args) {
         Cat lion = new Cat("Panthera leo", "Gold", 23000);
         Cat tabby = new Cat("Felis Catus", "Mixed", 3000000);
         Cat cheetah = new Cat("Acinonyx jubatus", "Black and yellow", 7000);
+        System.out.println(lion.species);
+        System.out.println(tabby.species);
+        System.out.println(cheetah.species);
+        tabby.species = "Felis catus";
+        System.out.println(tabby.species);
+        System.out.println("Oh no global warming");
+        tabby.population = 0;
+        lion.population = 0;
+        cheetah.population = 0;
+        System.out.println(lion.population);
+        System.out.println(tabby.population);
+        System.out.println(cheetah.population);
     }
 }
