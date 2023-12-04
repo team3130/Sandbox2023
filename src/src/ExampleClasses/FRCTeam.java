@@ -21,6 +21,7 @@ public class FRCTeam {
     }
     public void setTeamNumber(int newteamnumber){
         this.teamNumber = newteamnumber;
+
     }
 
     public int getNumOfMembers() {
