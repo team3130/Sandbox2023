@@ -12,7 +12,7 @@ public class  Main {
         (1) OPERATORS PRACTICE
          */
         System.out.println("(1) OPERATORS PRACTICE:");
-        System.out.println(9057 + 90274903) // what is wrong with this line?
+        System.out.println(9057 + 90274903); // what is wrong with this line?
         // continue exercise here
 
 
@@ -30,7 +30,11 @@ public class  Main {
         String myString = "bruh";
 
         // create your own experimental variables here
-
+        int specialnum;
+        specialnum = -3;
+        double specialdouble = 3.14159;
+        boolean specialboolean = false;
+        String beststring = "meh";
 
         /*
         (3) VARIABLE REASSIGNMENT
@@ -45,6 +49,8 @@ public class  Main {
         y += y; // y is equal to 4
 
         // try variable reassignment yourself using shorthand: += *= /= -=
+        int g = 5;
+        g += 5;
 
 
         /*
@@ -55,7 +61,7 @@ public class  Main {
 
         int ERRORNumMembers = 51;
         int ERRORNumCaptains = 3;
-        int numBigTeam = 20;
+        int numBigTeam = 53;
         int funnyNumber = 420;
         int unluckyNum = 13;
         int andInfAndBeyond = 999;
@@ -64,9 +70,9 @@ public class  Main {
 
         boolean softwareIsTheBest = false;
         boolean juhaeSoftwareLead = true;
-        boolean giorgiaPM = false;
+        boolean giorgiaPM = true;
 
-        if (softwareIsTheBest) { // shorthand for if (softwareIsTheBest == true)
+        if (!softwareIsTheBest) { // shorthand for if (softwareIsTheBest == true)
             System.out.println("Juhae is the best");
         } else {
             System.out.println("Business for life");
@@ -101,7 +107,13 @@ public class  Main {
         }
 
         // write your own conditionals using &&, ||, and elif statements
-
+        String muneer = "bored";
+        String Mohamed = "asleep";
+        if (muneer.equals("bored") && !Mohamed.equals("notasleep")) {
+            System.out.println("Muneer is not bored and Mohamed is not asleep");
+        } else if (muneer.equals("bored") || Mohamed.equals("asleep")) {
+            System.out.println("meh");
+        }
 
     }
 }
