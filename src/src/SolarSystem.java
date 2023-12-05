@@ -42,7 +42,9 @@ public class SolarSystem {
         SolarSystem mercury = new SolarSystem(13545.848, "36.768 million miles", 0, 3032,  "Mercury");
 
         System.out.println();
+        System.out.println("------------");
         System.out.println("MERCURY INFO");
+        System.out.println("------------");
         System.out.println();
         System.out.println("Name of planet: " + mercury.name);
         System.out.println("Density: " + mercury.density);
@@ -51,8 +53,9 @@ public class SolarSystem {
         System.out.println("Size: " + mercury.size);
 
         System.out.println();
-        System.out.println();
+        System.out.println("----------");
         System.out.println("EARTH INFO");
+        System.out.println("----------");
         System.out.println();
         System.out.println("Name of planet: " + earth.name);
         System.out.println("Density: " + earth.density);
@@ -61,8 +64,9 @@ public class SolarSystem {
         System.out.println("Size: " + earth.numOfMoons);
 
         System.out.println();
-        System.out.println();
+        System.out.println("---------");
         System.out.println("MARS INFO");
+        System.out.println("---------");
         System.out.println();
         System.out.println("Name of planet: " + mars.name);
         System.out.println("Density: " + mars.density);
