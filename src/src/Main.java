@@ -12,7 +12,11 @@ public class  Main {
         (1) OPERATORS PRACTICE
          */
         System.out.println("(1) OPERATORS PRACTICE:");
+<<<<<<< Updated upstream
         System.out.println(9057 + 90274903); // what is wrong with this line?
+=======
+        System.out.println(9057 + 90274903);// what is wrong with this line?
+>>>>>>> Stashed changes
         // continue exercise here
 
 
