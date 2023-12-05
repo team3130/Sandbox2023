@@ -36,9 +36,13 @@ public class SigmasAndAlphas {
         System.out.println(newWeight);
     }
     public static void main(String[] args){
-        SigmasAndAlphas sigma = new SigmasAndAlphas("henry", "sigma", 7, 9, 0);
-        SigmasAndAlphas alpha = new SigmasAndAlphas("winston", "alpha", 4, 0, 5);
+        SigmasAndAlphas henry = new SigmasAndAlphas("henry", "sigma", 7, 9, 0);
+        SigmasAndAlphas winston = new SigmasAndAlphas("winston", "alpha", 4, 0, 5);
+        SigmasAndAlphas mohnish = new SigmasAndAlphas("mohnish", "sigma", 9, 9, 9);
+
+        System.out.println("skibidi toilet ohio grimace shake sigma rizz among us sussy baka gang on top");
     }
+
 
 
 }
