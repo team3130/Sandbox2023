@@ -28,6 +28,25 @@ public class FRCTeam {
         return qualifiedToWorlds;
     }
 
+<<<<<<< Updated upstream
+=======
+    public void setAvgMatchScore(double new143) {
+        this.avgMatchScore = 143;
+    }
+
+    public String getTeamName() {
+        return teamName;
+    }
+    public double getAvgMatchScore() {
+        return avgMatchScore;
+    }
+    public void setTeamNumber(int teamnumber) {
+        this.teamNumber = teamnumber;
+    }
+    public void setQualifiedToWorlds(boolean qualifiedToWorlds) {
+        this.qualifiedToWorlds = qualifiedToWorlds;
+    }
+>>>>>>> Stashed changes
     // MAIN
     public static void main(String[] args) {
         FRCTeam ERROR3130 = new FRCTeam(3130, "ERROR", 32);
