@@ -9,7 +9,7 @@ public class Main {
         System.out.println("Hello world!");
 
         // OPERATORS PRACTICE
-        System.out.println(9057 + 90274903) // what is wrong with this line?
+        System.out.println(9057 + 90274903); // what is wrong with this line?
 
         // CONDITIONALS PRACTICE
         int ERRORNumMembers = 5;
