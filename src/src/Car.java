@@ -42,21 +42,23 @@ public class Car {
 
         //Printing Methods
     public void printBrand(){
-        System.out.println(getBrand());
+        System.out.println("Brand: " + getBrand());
     }
     public void printPrice(){
-        System.out.println(getPrice());
+        System.out.println("Price: " + getPrice());
     }
     public void printYearMade(){
-        System.out.println(getYearMade());
+        System.out.println("Year Made: " + getYearMade());
     }
     public void printAmountMade(){
-        System.out.println(getHowManyMade());
+        System.out.println("Amount Made: " + getHowManyMade());
     }
     public void printCarRarity(){
-        System.out.println(isCarRare());
+        System.out.println("Is Car Rare: " + isCarRare());
     }
-    
+
+
+
     public static void main(String[] args){
         //Objects
         Car Porsche911 = new Car("Porsche", 107777.00,2020,5152,true);
@@ -64,25 +66,28 @@ public class Car {
         Car C250 = new Car("Mercedes",25000.00,2013,2400000,false);
 
         //Printing
-        System.out.println("Porsche911");
+        System.out.println("Porsche911-");
         Porsche911.printBrand();
         Porsche911.printPrice();
         Porsche911.printYearMade();
         Porsche911.printAmountMade();
         Porsche911.printCarRarity();
+        System.out.println("====================");
 
-        System.out.println("Enclave");
+        System.out.println("Enclave-");
         Enclave.printBrand();
         Enclave.printPrice();
         Enclave.printYearMade();
         Enclave.printAmountMade();
         Enclave.printCarRarity();
+        System.out.println("====================");
 
-        System.out.println("C250");
+        System.out.println("C250-");
         C250.printBrand();
         C250.printPrice();
         C250.printYearMade();
         C250.printAmountMade();
         C250.printCarRarity();
+
     }
 }
