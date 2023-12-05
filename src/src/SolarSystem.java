@@ -1,12 +1,12 @@
 public class SolarSystem {
-    // My instance variables
+    // Instance variables
     double density;
     String distanceToSun;
     int numOfMoons;
     int size;
     String name;
 
-    // My constructor
+    // Constructor
     public SolarSystem(double density, String distanceToSun, int numOfMoons, int size, String nameOfPlanet){
         this.density = density;
         this.distanceToSun = distanceToSun;
@@ -35,7 +35,7 @@ public class SolarSystem {
     public void setName(String name) {
         this.name = name;
     }
-
+    // Objects
     public static void main(String[] args) {
         SolarSystem earth = new SolarSystem(5515, "91.687 million miles", 1, 7926, "Earth");
         SolarSystem mars = new SolarSystem(3934, "142.33 million miles", 2, 4212, "Mars");
