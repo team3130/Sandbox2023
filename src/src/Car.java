@@ -88,6 +88,5 @@ public class Car {
         C250.printYearMade();
         C250.printAmountMade();
         C250.printCarRarity();
-
     }
 }
