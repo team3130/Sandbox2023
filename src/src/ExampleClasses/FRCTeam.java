@@ -23,9 +23,20 @@ public class FRCTeam {
     public int getNumOfMembers() {
         return numOfMembers;
     }
-
+    public String getTeamName(){return teamName;}
     public boolean isQualifiedToWorlds() {
         return qualifiedToWorlds;
+    }
+    public void setTeamNumber(int tn) {
+        teamNumber = tn;
+    }
+
+    public void setNumOfMembers(int nm) {
+        numOfMembers = nm;
+    }
+    public void setTeamName(String tn){teamName = tn;}
+    public void setQualifiedToWorlds(boolean qw) {
+        qualifiedToWorlds = qw;
     }
 
     // MAIN
